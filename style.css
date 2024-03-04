@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+* {
+  font-family: 'Comfortaa', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+body {
+  color: #fff;
+  background-color: #e9ff99;
+  background-image: url('beautiful_flowers_background-wallpaper-3840x2160.jpg');
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.glass-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  width: 720px;
+  min-width: 423px;
+  height: 380px;
+  margin-top: 10vh;
+  margin-bottom: 30px;
+  background: rgba(0, 0, 0, 0.47);
+  padding: 50px;
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(11.6px);
+  -webkit-backdrop-filter: blur(11.6px);
+}
+
+.question-box {
+  display: flex;
+  justify-content: center;
+  height: 50%;
+  width: 100%;
+}
+
+.answer-box {
+  display: flex;
+  justify-content: space-around;
+  height: 50%;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+}
+
+button {
+  transition: all 0.3s ease;
+  height: 65px;
+  width: 150px;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  cursor: pointer;
+  background-color: transparent;
+  color: #fff;
+}
+
+.play {
+  position: absolute;
+  top: 50%;
+  transform: translate(0%, -50%);
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  font-size: 16px;
+}
+
+button:hover {
+  border-color: #b47cbfd9;
+  background-color: #b47cbfd9;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+#victory {
+  position: absolute;
+  top: 40%;
+  transform: translate(0%, -50%);
+  font-size: 50px;
+  font-weight: bold;
+}
